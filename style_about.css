@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body{
+    font-family: 'Baloo Paaji 2', cursive;
+}
+.main_info{
+    width: 80vw;
+    height: 60vh;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.main_info h1{
+    margin-bottom: 60px;
+}
+.main_info h2{
+    width: 40vw;
+}
+.footer{
+    margin-top: 300px;
+}
+.main_info img{
+    width: 15vw;
+    height: 25vh;
+}
+@media (max-width:630px){
+    .main_info{
+        width: 80vw;
+        height: 60vh;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+    }
+    .main_info h2{
+        width: 80vw;
+    }
+    .footer{
+        margin-top:400px;
+    }
+    .main_info img{
+        width: 50vw;
+    }
+}
+@media (max-width:440px){
+    .main_info{
+        width: 80vw;
+        height: 130vh;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+    }
+    .main_info h2{
+        width: 80vw;
+    }
+    .footer{
+        margin-top:400px;
+    }
+}
